@@ -1,4 +1,10 @@
-package org.example;
+import java.util.Map;
+import java.util.concurrent.*;
+
+/**
+ * @author Novikov Nikita 17.03.2023 Race_Task
+ */
+
 
 import java.util.Map;
 import java.util.concurrent.*;
@@ -108,3 +114,4 @@ public class Main {
         }
     }
 }
+
