@@ -2,14 +2,6 @@ import java.util.Map;
 import java.util.concurrent.*;
 
 /**
- * @author Novikov Nikita 17.03.2023 Race_Task
- */
-
-
-import java.util.Map;
-import java.util.concurrent.*;
-
-/**
  * @author Novikov Nikita ${DATE} $PROJECT_NAME
  */
 public class Main {
@@ -73,7 +65,7 @@ public class Main {
 
 
     private static void SleepRandomTime() {   //метод, который усыпляет потоки на рандомное время
-        long millis = (long) (Math.random() * 5000 + 1000);
+        long millis = (long) (Math.random() * 10000 + 1000);
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
